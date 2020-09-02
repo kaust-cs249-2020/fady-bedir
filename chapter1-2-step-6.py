@@ -12,7 +12,7 @@ patternlen = len(pattern) #assign the length of the pattern string to the variba
 
 def pattern_count(text, pattern): #define the function for counting the pattern within text
     count = 0 
-    for i in range(0, textlen):                         # for loop add 1 count each time the sliced string   
+    for i in range(0, textlen - patternlen + 1):        # for loop add 1 count each time the sliced string
         if text[i : patternlen + i] == pattern:         # matches the pattern
             count += 1                         
             
