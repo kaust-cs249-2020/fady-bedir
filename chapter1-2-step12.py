@@ -26,6 +26,6 @@ def better_freq(text, k):
             freq_pattern.append(pattern)
     
     print("the pattern is "+ str(freq_pattern))
-    print("its composed of " + str(maxMap) + " nucleotides")
+    print("it was repeated " + str(maxMap) + " times")
 
 better_freq(text, k)
