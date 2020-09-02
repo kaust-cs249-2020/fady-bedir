@@ -12,7 +12,7 @@ freq_map = {}
 freq_pattern = []
 
 def better_freq(text, k):
-    for i in range(0, n):               #for loop that creates a key in the dict and assigns a value of 1 
+    for i in range(0, n - k + 1):               #for loop that creates a key in the dict and assigns a value of 1 
         pattern = text[i : i + k]       #if the key is already they, loop adds 1 to its value
         if pattern not in freq_map:
             freq_map[pattern] = 1
