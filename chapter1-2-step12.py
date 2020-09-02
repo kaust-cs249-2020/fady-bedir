@@ -6,7 +6,7 @@ lines = text.split('\n')
 
 text = lines[0]
 n = len(text)
-k = 11
+k = int(lines[1])
 
 freq_map = {}
 freq_pattern = []
