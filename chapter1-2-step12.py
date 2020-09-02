@@ -25,7 +25,7 @@ def better_freq(text, k):
         if freq_map[pattern] == maxMap: #if it matches the max value, the key is added to a list 
             freq_pattern.append(pattern)
     
-    print("the pattern is "+ str(freq_pattern[0]))
+    print("the pattern is "+ str(freq_pattern))
     print("its composed of " + str(maxMap) + " nucleotides")
 
 better_freq(text, k)
