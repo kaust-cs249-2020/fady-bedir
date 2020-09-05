@@ -9,7 +9,7 @@ l = 500
 t = 3
 n = len(gen)
 
-print(n)
+
 
 patterns = []
 
