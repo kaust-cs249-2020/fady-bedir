@@ -9,7 +9,7 @@ lines = text.split('\n')
 string1 = lines[0]
 string2 = lines[1]
 
-def hum_dist(string1, string2):
+def ham_dist(string1, string2):
     count = 0
     for i in range(len(string1)):
         if string1[i] != string2[i]:
