@@ -1,6 +1,6 @@
 #ApproximatePatternCount
 
-from hummingdistance import hum_dist
+from hammingdistance import ham_dist
 
 file = open('/users/fadygamal/data-ch-1-8-step6.txt', 'r')
 txt = file.read()
@@ -17,8 +17,8 @@ def app_patt_count(pattern, text, d):
     count = 0
     for i in range(n - k + 1):
         patt = text[i : i + k]
-        humm = hum_dist(pattern, patt)
-        if humm <= d:
+        ham = ham_dist(pattern, patt)
+        if ham <= d:
             count += 1
     return count
 
